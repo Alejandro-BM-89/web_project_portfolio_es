@@ -360,4 +360,165 @@ body {
   display: block;
 }
 
-.
+.contact__social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.contact__social-icon {
+  width: 28px;
+  height: 28px;
+  filter: invert(1);
+}
+
+.contact__social-link:hover {
+  opacity: 0.7;
+}
+
+/* ==================== TABLET (max-width: 1023px) ==================== */
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 32px 40px 0;
+  }
+
+  .hero {
+    padding: 40px 40px;
+    gap: 24px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .hero__content {
+    max-width: 45%;
+  }
+
+  .hero__photo-container {
+    width: 45%;
+  }
+
+  .hero__photo {
+    width: 100%;
+    height: 400px;
+  }
+
+  .skills {
+    padding: 40px 40px;
+  }
+
+  .skills__title {
+    font-size: 32px;
+  }
+
+  .projects {
+    padding: 40px 40px;
+  }
+
+  .contact {
+    padding: 60px 40px;
+  }
+}
+
+/* ==================== MÓVIL (max-width: 767px) ==================== */
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 24px 16px 0;
+  }
+
+  .header__nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .header__separator {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 32px 16px;
+    gap: 24px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__photo-container {
+    width: 100%;
+  }
+
+  .hero__photo {
+    height: 280px;
+    object-position: center top;
+  }
+
+  .skills {
+    padding: 32px 16px;
+  }
+
+  .skills__title {
+    font-size: 28px;
+  }
+
+  .skills__icons {
+    gap: 24px;
+  }
+
+  .skills__icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .projects {
+    padding: 32px 16px;
+  }
+
+  .projects__title {
+    font-size: 28px;
+  }
+
+  .projects__grid {
+    flex-direction: column;
+  }
+
+  .contact {
+    padding: 40px 16px;
+  }
+
+  .contact__title {
+    font-size: 28px;
+  }
+}
+
+/* ==================== MÓVIL PEQUEÑO (max-width: 360px) ==================== */
+@media screen and (max-width: 360px) {
+  .header__nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .header__separator {
+    display: none;
+  }
+
+  .hero__title {
+    font-size: 32px;
+  }
+
+  .hero__description {
+    font-size: 14px;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
