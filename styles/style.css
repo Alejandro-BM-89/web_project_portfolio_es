@@ -31,6 +31,8 @@ body {
   color: #ffffff;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .page {
@@ -423,6 +425,10 @@ body {
 
 /* ==================== MÓVIL (max-width: 767px) ==================== */
 @media screen and (max-width: 767px) {
+  .page {
+    overflow-x: hidden;
+  }
+
   .header {
     padding: 24px 16px 0;
   }
